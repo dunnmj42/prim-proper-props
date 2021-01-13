@@ -1,6 +1,8 @@
 function GuestList(props) {
     return (
-        <table>
+      <>
+      <h2>Guest List</h2>
+      <table>
         <thead>
           <tr>
             <th>Name</th>
@@ -16,6 +18,7 @@ function GuestList(props) {
           ))}
         </tbody>
       </table>
+      </>
     );
 }
 
